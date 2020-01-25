@@ -28,4 +28,11 @@ public class Application {
         container.setConfigItems(Arrays.asList(new KieServerConfigItem(KieServerConstants.PCFG_RUNTIME_STRATEGY, "PER_PROCESS_INSTANCE", "String")));
         return container;
     }
+    
+    @Bean
+    KieContainerResource evaluation5() {
+        KieContainerResource container = new KieContainerResource("evaluation5", new ReleaseId("evaluation5", "evaluation5", "5.0"));
+        container.setConfigItems(Arrays.asList(new KieServerConfigItem(KieServerConstants.PCFG_RUNTIME_STRATEGY, "PER_PROCESS_INSTANCE", "String")));
+        return container;
+    }
 }

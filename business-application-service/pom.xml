@@ -31,6 +31,12 @@
       <groupId>org.kie</groupId>
       <artifactId>kie-server-spring-boot-starter</artifactId>
       <version>${version.org.kie}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.kie</groupId>
+          <artifactId>kie-ci</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
 
     <dependency>

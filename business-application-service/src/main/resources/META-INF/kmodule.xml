@@ -1,0 +1,5 @@
+<kmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://jboss.org/kie/6.0.0/kmodule">
+  <kbase name="evaluation5" default="false" eventProcessingMode="cloud" equalsBehavior="identity" packages="org.test.*">
+    <ksession name="evaluation_5_s" type="stateful" default="false"/>
+  </kbase>
+</kmodule>
